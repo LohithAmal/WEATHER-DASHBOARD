@@ -4,26 +4,26 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- own css link -->
-  <link rel="stylesheet" href="./style.css">
-  <!-- bootstrap link -->
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>weather Dashboard</title>
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <!-- optional bootstrap popper jquery links -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-  crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-  crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/d3bce829f3.js" crossorigin="anonymous"></script>
 
-<!-- !-- HTML STARTS HERE -->
+    <!-- additional javascript cdn bootstrap,popper and jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d3bce829f3.js" crossorigin="anonymous"></script>
+
+    <!-- HTML STARTS HERE -->
     <div class="container-fluid">
       <div class="card">
           <div class="card-body text-center">
@@ -60,14 +60,14 @@
               <!-- Appends current weather forecast-->
               <div class="col mt-4 mr-5">
                   <div class="card currentCard pb-2 pt-1">
-                      <h5 class="card-title mt-2 text-center">WEATHER TODAY</h5>
+                      <h5 class="card-title mt-2 text-center">Current Forecast</h5>
                   </div>
               </div>
               <div class="row">
                   <div class="col mt-4">
                       <div class="card pb-5 fiveDayCard pl-5">
                           <!-- Appends 5 day forecast-->
-                          <h5 class="card-title mt-2 mr-5">FIVE DAYS WEATHER</h5>
+                          <h5 class="card-title mt-2 mr-5">5-Day Forecast </h5>
                           <div class="row">
                               <div class="col fiveDayOne">
                               </div>
@@ -84,11 +84,10 @@
     <hr class="line">
     <p class="text-center">2021 &copf; weather dashboard </p>
   </footer>
+    <!-- javascript links-->
+    <script src="./script.js"></script>
 
-  <!-- own j.s link -->
-  <script src="./script.js"></script>
-  <!-- jquery links -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>
 </html>

@@ -6,6 +6,7 @@
 body {
   background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
   background-repeat: no-repeat;
+  color: black;
 }
 img {
   width: 100px;
@@ -13,4 +14,30 @@ img {
 }
 footer p {
   color: white;
+}
+ul {
+  list-style: none;
+}
+li {
+  text-align: left;
+  border-bottom: 1px blue dotted;
+}
+.cardColor {
+  padding: 20px;
+  background-color: #00adb5;
+  color: black;
+  float: left;
+  margin: 10px;
+  border: 1px solid lightgray;
+}
+.currentCard {
+  background-color: #393e46;
+  font-weight: 600;
+  color: white;
+}
+.list-group .list {
+  color: #393e46;
+}
+.input {
+  color: #393e46;
 }
