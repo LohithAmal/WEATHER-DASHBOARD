@@ -21,3 +21,7 @@ http://javascriptbook.com/about/
  
  ## GITHUB REPO
  https://github.com/LohithAmal/WEATHER-DASHBOARD
+
+# APP IMAGES
+![](IMAGES/ONE.JPG)
+![](IMAGES/TWO.JPG)
