@@ -9,13 +9,13 @@ for (var i = 0; i < localStorage.length; i++) {
   cityName.append("<li>" + city + "</li>");
 }
 
-var searchButton = $("button");
+var searchButton = $(".button");
 
 var apiKey = "e2f0832792862c8f0dface153081af37";
 
 var keyCount = 0;
 
-searchButton.click(()= {
+searchButton.click(()=> {
 
   var userInput = $(".input").val();
 
